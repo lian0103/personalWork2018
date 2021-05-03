@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no">
+	<title>Good Time</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/personal-work.css">
+	<link rel="stylesheet" type="text/css" href="css/personal-work-rwd.css">
+	<link rel="icon" href="images/index img/logo .png" type="image/x-icon">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/myJSindex.js"></script>
+</head>
+<body>
+<div class="fullfill-bg3">
+<!-- 	<div class="jsboxIndex" id="jsboxIndex">
+		<img id="showL" src="images/index img/model5.png">
+		<img id="showR" src="images/index img/model6.png">
+		<div class="clear-box"></div>
+	</div> -->
+	<div id="cancelLightD">
+		<div id="lightboxForJoin">
+			<div class="titleh2">
+				<div class="lineh2"></div>
+				<h2>加入好時光會員</h2>
+				<div class="lineh2"></div>
+			</div>
+			<div class="titleh3">
+				<h3>基本設定</h3>
+			</div>
+			<div class="joinform">
+				<h3>手機</h3>
+				<p><input type="tel" name="" placeholder="0975-111-111" class="input_tel" maxlength="12"></p>
+				<h3>姓名</h3>
+				<p><input type="text" name="" placeholder="林OO" class="input_text"></p>
+				<h3>密碼</h3>
+				<p><input type="password" name="" class="input_PSW" maxlength="8" minlength="6" placeholder="******"></p>
+				<h3>確認密碼</h3>
+				<p><input type="password" name="" class="input_PSW" maxlength="8" minlength="6" placeholder="******"></p>
+				<h3>電子郵件信箱</h3>
+				<p><input type="email" name="" class="input_email"placeholder="k1319900103@gmail.com"></p>
+				<h3>預設收貨地址</h3>
+				<p><input type="address" name="" class="input_address" placeholder="新北市OO區OO路/街"></p>
+			</div>
+			<div class="btns">
+				<input type="button" name="" value="送出" id="cancelLightB">
+				<input type="button" name="" value="取消" id="cancelLightC">
+			</div>
+		</div>		
+	</div>
+	<div class="wrap1">
+		<div class="nav-bar">
+			<a class="a-logo" href="index.html"><img src="images/index img/logo .png"></a>
+			<h1>好時光 有機水果</h1>
+			<!-- rwd漢堡 -->
+			<input class="ctrol-Hide" type="checkbox" name="" id="ctrolmenu">
+			<label class="ctrol-show" for="ctrolmenu"><img src="images/index img/menu.png"></label>
+			<ul class="main-menu"> 
+				<li><a href="page1-1_pruduct.html">季節水果</a><br>
+				</li>
+				<li><a href="page1-2_about us.html">關於好時光</a><br>
+					<ul class="sub-menu">
+						<li><a href="page1-5_spokesperson.html">形象代言人</a></li><br>
+						<li><a href="page1-6_partner.html">好時光夥伴</a></li><br>
+						<li><a href="page1-4_pruduct-history.html">生產履歷</a></li>
+					</ul>
+				</li>
+				<li><a id="joinA">會員服務</a><br>
+					<ul class="sub-menu sub-menu2">
+						<li><a id="joinB">加入會員</a></li><br>
+						<li><a id="joinC">會員回饋</a></li><br>
+						<li><a id="joinD">訂單查詢</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="shopping-bag"><a href="page1-1_pruduct.html"><img src="images/index img/shopping-bag.png"></a>
+			</div>
+		</div>
+		<div class="contact-box">
+			<span>*雙11大優惠，會員單筆消費5000元 享9.5折 免運費</span>
+			<span>*累計消費2萬元 送 Dear b&b 精選旅宿入住券</span>
+			<div class="contact-box-txt contact-box-txt-sm">
+				<img src="images/index img/facebook icon.png" alt="">
+				<p>好時光有機</p>
+				<img src="images/index img/phone2.png" alt="">
+				<p>0975-111-111</p>		
+			</div>
+			<div class="clear-box"></div>	
+		</div>
+		<div class="quickLook">
+			<h2>“每個時節<br>&nbsp&nbsp&nbsp&nbsp我們都有最新鮮的水果”</h2>
+			<a href="page1-4_pruduct-history.html">快速瀏覽</a>
+		</div>  
+<!-- slider -->
+		<div class="slider-container">
+			<a href="page1-1_pruduct.html"><img src="images/head-banner/02s.png"></a>
+			<a href="page1-1_pruduct.html"><img src="images/head-banner/01s.png"></a>
+			<a href="page1-1_pruduct.html"><img src="images/head-banner/03s.png"></a>
+			<a href="page1-1_pruduct.html"><img src="images/head-banner/04s.png"></a>
+			<a href="page1-1_pruduct.html"><img src="images/head-banner/05s.png"></a>
+		</div>
+		<!-- <div class="deskBanner">
+			<img src="images/head-banner/04s.png">
+		</div> -->
+		<div class="phoneBanner"></div>
+	</div>
+<!--第二幕 -->
+	<div class="wrap2" id="wrap2">
+		<div class="w3-main-title">
+			<!-- 補些廣告 用背景移動做 -->
+			<h2 id="indexH2">人氣熱銷</h2>
+			<div id="theDiv"></div>
+			<div class="txt-blue-bgi">
+				<h3>NO.1 金黃香蕉</h3>
+				<span>產地：高雄<br>售價：200元/串<!-- <a href="page1-1_pruduct.html" class="link-buy">購買</a> --></span>
+				<br><span>全年供應！</span>
+				<p>香蕉含有相當多的鉀和鎂離子。而鉀能防止血壓上升及肌肉痙攣，而鎂則具有消除疲勞的效果。由於香蕉對消化、吸收相當良好，因此從小孩、到老年人，都能安心地食用，並補給均衡的營養。</p>
+			</div>
+			<div class="banana">
+				<a href="page1-1_pruduct.html"><img src="images/index img/banana1-12.png"></a>
+			</div>
+			<img class="newlight" src="images/index img/newlight.png">
+		</div>
+		<div class="item-box-group2" id="leftIn">
+			<div class="item-box-demo">
+				<img src="images/index img/shemeatau6-8.png" alt="高山水蜜桃">
+				<div class="txt-product">
+					<h3>高山水蜜桃</h3>
+					<span>產地：桃園<br>售價：300元/盒&nbsp&nbsp<a href="page1-1_pruduct.html" class="link-buy">購買</a></span>
+					<br><span>時節：6-8月</span>
+					<p>新鮮的水蜜桃剛採下來，可以很清楚的看到水蜜桃的表面有一層薄薄的水蜜桃保護毛。</p>
+				</div>
+				<a href="page1-1_pruduct.html" class="link-buy2">購買</a>
+			</div>
+			<div class="item-box-demo">
+				<img src="images/index img/sberry1-3.png">
+				<div class="txt-product">
+					<h3>薔薇草莓</h3>
+					<span>產地：苗栗<br>售價：200元/盒<a href="page1-1_pruduct.html" class="link-buy">購買</a></span>
+					<br><span>時節：1-3月</span>
+					<p>深紅色圓形或心臟形漿果體，肉純白。可直接食用，淋上優酪乳、奶油、果糖、巧克力或煉乳喔！</p>
+				</div>
+				<a href="page1-1_pruduct.html" class="link-buy2">購買</a>
+			</div>
+			<div class="item-box-demo">
+				<img src="images/index img/lianwu1-8.png">
+				<div class="txt-product">
+					<h3>清脆蓮霧</h3>
+					<span>產地：高雄<br>售價：70元/顆<a href="page1-1_pruduct.html" class="link-buy">購買</a></span>
+					<br><span>時節：1-8月</span>
+					<p>果實長得像鈴鐺，果實呈海綿質，甜味比其它水果稍淡，但帶有特殊的蘋果香，除生食外，亦可鹽漬、糖漬或自製果汁。</p>
+				</div>
+				<a href="page1-1_pruduct.html" class="link-buy2">購買</a>
+			</div>
+		</div>
+			
+		<div class="item-box-group2" id="rightIn">
+			<div class="item-box-demo">
+				<img src="images/index img/geaz11-1.png">
+				<div class="txt-product">
+					<h3>甘心橘子</h3>
+					<span>產地：宜蘭<br>售價：40元/顆&nbsp&nbsp<a href="page1-1_pruduct.html" class="link-buy">購買</a></span>
+					<br><span>時節：11-1月</span>
+					<p>橘子中的維生素A還能夠增強人體在黑暗環境中的視力和治療夜盲症。但不建議大量食用喔！</p>
+				</div>
+				<a href="page1-1_pruduct.html" class="link-buy2">購買</a>
+			</div>
+			<div class="item-box-demo">
+				<img src="images/index img/bale1-12.png">
+				<div class="txt-product">
+					<h3>軟芭樂</h3>
+					<span>產地：南投<br>售價：40元/顆<a href="page1-1_pruduct.html" class="link-buy">購買</a></span>
+					<br><span>全年供應！</span>
+					<p>芭樂富含蕃茄紅素、 槲皮素、維他命C及各種多酚類，一顆芭樂能滿足每日纖維建議攝取量的12%，可幫助消化系統恢復規律喔！</p>
+				</div>
+				<a href="page1-1_pruduct.html" class="link-buy2">購買</a>
+			</div>
+			<div class="item-box-demo">
+				<img src="images/index img/zauz12-2.png">
+				<div class="txt-product">
+					<h3>清亮棗子</h3>
+					<span>產地：南投<br>售價：200元/箱<a href="page1-1_pruduct.html" class="link-buy">購買</a></span>
+					<br><span>時節：12-2月</span>
+					<p>果實為棗，長圓形，未成熟時黃綠色，成熟後褐紅色。可鮮食也可製成乾果或蜜餞果脯等。</p>
+				</div>
+				<a href="page1-1_pruduct.html" class="link-buy2">購買</a>
+			</div>
+		</div>	
+<!-- 		<div class="model-item2">
+			<img src="images/index img/model4.png" class="showgirl">
+		</div> -->
+		<div class="clear-box"></div>
+
+		<h2 class="time_word">時節首選</h2>
+		<div class="index-page3">
+			<div class="model-item " id="leftInB">
+				<img src="images/index img/girl show.png" class="showgirl">
+				<img src="images/index img/sweetword.png" class="sweetword">
+				<img src="images/index img/newlight.png" class="light1">
+			</div>
+			<div class="item-box-group" id="rightInB">
+				<div class="item-box-demo">
+					<img src="images/index img/pineapple-box .png" alt="金鑽鳳梨禮盒">
+					<div class="txt-product">
+						<h3>金鑽鳳梨禮盒</h3>
+						<span>產地：嘉義<br>售價：400元/盒&nbsp&nbsp<a href="page1-1_pruduct.html" class="link-buy">購買</a></span>
+						<br><span>時節：6-8月</span>
+						<p>夏季烈日當頭 果香濃厚冬，季日曬減少 口味清爽季節的風味本當如此~</p>
+					</div>
+					<a href="page1-1_pruduct.html" class="link-buy2">購買</a>
+				</div>
+				<div class="item-box-demo">
+					<img src="images/index img/mango.png">
+					<div class="txt-product">
+						<h3>頂級愛文芒果</h3>
+						<span>產地：屏東<br>售價：150元/顆<a href="page1-1_pruduct.html" class="link-buy">購買</a></span>
+						<br><span>時節：5-8月</span>
+						<p>全省芒果冰店指定供應，外銷日本等級甜度保證，農糧署吉園圃安心蔬果，每日新鮮直配。</p>
+					</div>
+					<a href="page1-1_pruduct.html" class="link-buy2">購買</a>
+				</div>
+				<div class="item-box-demo">
+					<img src="images/index img/grape .png">
+					<div class="txt-product">
+						<h3>紫金葡萄</h3>
+						<span>產地：台中<br>售價：150元/串<a href="page1-1_pruduct.html" class="link-buy">購買</a></span>
+						<br><span>時節：5-12月</span>
+						<p>果皮紫黑色，光滑具果粉，果肉透明，肉質軟而多汁，糖度約16brix，最高可達22 brix 。</p>
+					</div>
+					<a href="page1-1_pruduct.html" class="link-buy2">購買</a>
+				</div>
+				<div class="item-box-demo">
+					<img src="images/index img/watermelon5-6.png" alt="甜美西瓜">
+					<div class="txt-product">
+						<h3>西瓜</h3>
+						<span>產地：花蓮<br>售價：200元/顆&nbsp&nbsp<a href="page1-1_pruduct.html" class="link-buy">購買</a></span>
+						<br><span>時節：5-6月</span>
+						<p>果實外皮光滑，呈綠色或黃色及有深綠色的花紋，果瓤多汁為紅色或黃色，也可以製作出酸甜度適中及帶有果香的西瓜酒。~</p>
+					</div>
+					<a href="page1-1_pruduct.html" class="link-buy2">購買</a>
+				</div>
+				<div class="item-box-demo">
+					<img src="images/index img/moocaw8-12.png">
+					<div class="txt-product">
+						<h3>飽滿木瓜</h3>
+						<span>產地：嘉義<br>售價：170元/顆<a href="page1-1_pruduct.html" class="link-buy">購買</a></span>
+						<br><span>時節：8-12月</span>
+						<p>豐整光滑，果肋、果溝不明顯。雌果近圓型，兩性果梨形，果肉鮮紅色，糖度約15Brix，平均果重約400公克。</p>
+					</div>
+					<a href="page1-1_pruduct.html" class="link-buy2">購買</a>
+				</div>
+				<div class="item-box-demo">
+					<img src="images/index img/leaz5-7.png">
+					<div class="txt-product">
+						<h3>皇后荔枝</h3>
+						<span>產地：南投<br>售價：150元/串<a href="page1-1_pruduct.html" class="link-buy">購買</a></span>
+						<br><span>時節：5-7月</span>
+						<p>荔枝有「果中皇后」的美名，宋代《開寶本草》中記載荔枝有「益人顏色」的功效，也因此從古至今荔枝更留下了許多佳話。</p>
+					</div>
+					<a href="page1-1_pruduct.html" class="link-buy2">購買</a>
+				</div>
+			</div>			
+		</div>
+
+
+
+<!--第五幕 -->
+		<div class="w5">
+			<h2 class="w5-h2">&nbsp&nbsp&nbsp&nbsp關於好時光</h2>
+			<img src="images/index img/main2.png" class="main-img2"> 
+			<div class="main-txtbox">
+				<p>我們是一群遍佈在台灣各地的二代青農，專長是透過改良蔬果的栽種方法，讓蔬果在最天然的環境下自然生長。<br><br>2015年，我們成立好時光，在線上進行推廣，讓更多的朋友能便利購買到有機的蔬果。<br><br>即日起加入會員即有專屬會員的滿額回饋，以及累計消費好禮喔！<br></p>
+				<a href="#" class="join-menber">加入會員</a>
+			</div>
+			<div class="clear-box"></div>
+		</div>
+<!--第六幕 -->
+		<div class="service-box">
+			<div class="service-box-item service-box-item1">
+				<img src="images/index img/logo-bag .png">
+				<h3>會員回饋</h3>
+				<p>*單筆消費5000元 享9.5折 免運費<br><br>*累計消費2萬元 送 Dear b&b 精選旅宿入住券</p>
+			</div>
+			<div class="service-box-item service-box-item2">
+				<div class="billSearch-box">
+					<img src="images/index img/blue-check .png">
+					<h3>訂單搜詢</h3>
+					<input type="text" name="" placeholder=" 請輸入訂購人手機">
+					<input type="submit" name="" value="搜詢" class="search-sub">
+				</div>
+				<div class="historySearch-box">
+					<img src="images/index img/map-location .png">
+					<h3>生產履歷</h3>
+					<input type="text" name="" placeholder=" 請輸入蔬果名稱">
+					<input type="submit" name="" value="搜詢" class="search-sub">
+				</div>
+				<div class="clear-box"></div>
+			</div>
+		</div>
+		<div class="footer-box footer-box-sm">
+			<img src="images/index img/logo .png">
+			<ul class="footer-manu footer-manu-sm">
+				<li><a href="page1-2_about us.html">關於好時光</a>
+					<ul class="footer-sub-manu footer-sub-manu-sm">
+						<li><a href="page1-5_spokesperson.html">形象代言人</a></li><br>
+						<li><a href="page1-6_partner.html">好時光夥伴</a></li><br>
+						<li><a href="page1-4_pruduct-history.html">生產履歷</a></li><br>
+					</ul>
+				</li>
+				<li><a href="page1-3_join us.html">會員服務</a>
+					<ul class="footer-sub-manu footer-sub-manu-sm">
+						<li><a href="page1-3_join us.html">加入會員</a></li><br>
+						<li><a href="page1-3_join us.html">會員回饋</a></li><br>
+						<li><a href="page1-1_pruduct.html">訂單查詢</a></li><br>
+					</ul>
+				</li>
+			</ul>
+
+			<div class="footer-image footer-image-sm">
+				<img src="images/index img/w5-1c.png">
+				<img src="images/index img/qrcoke2.png">
+				<img src="images/index img/model4r.png">
+			</div>
+			<div class="clear-box"></div>
+		</div>
+		<p class="copyright_p copyright_p-sm">© 好時光有機蔬果&nbsp2018</p>
+		<br>
+	</div>
+</div>
+</body>
+</html>
